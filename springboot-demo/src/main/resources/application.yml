@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    # 当前数据源操作类型
+    type: com.alibaba.druid.pool.DruidDataSource
+    # mysql驱动类
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_info?useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+
